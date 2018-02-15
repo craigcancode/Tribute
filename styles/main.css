@@ -1,0 +1,72 @@
+html, body {
+    background-color: #efefef;
+}
+
+h1 {
+    size: 28px;
+}
+
+#name {
+    font-size: 52px;
+}
+
+#dates {
+    font-size: 20px;
+}
+
+.decoration {
+    border-radius: 10%;
+    box-shadow: 3px 3px 20px black;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.time-list {
+    flex-basis: 40%;
+}
+
+.quotations {
+    flex-basis: 40%;
+}
+
+.timeline {
+    list-style-type: square;
+    line-height: 2em;
+    font-size: 18px;
+}
+
+#quotes .blockquote {
+    margin: 25px 0px 45px 0px;
+    line-height: 1.5em;
+    padding: 15px 15px 1px 20px;
+    background-color: rgba(128, 128, 128, 0.15);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 1); 
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+.link-group {
+    line-height: 2.5em;
+}
+
+.link-group li a {
+    font-size: 18px;
+}
+
+.link-header {
+    font-size: 24px;
+}
+
+.external-resources {
+    margin-top: 150px;
+}
+
+ol#footnotes li {
+    font-size: 16px;
+}
